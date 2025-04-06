@@ -15,7 +15,6 @@ bool isPossible(int arr[],int n , int m, int mid){
                 return false;
             }
             paperSum = arr[i];
-
         }
     }
     return true;
