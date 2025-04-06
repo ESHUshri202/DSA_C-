@@ -1,14 +1,15 @@
 #include<bits/stdc++.h>
-using namespace std;
-int selection(int arr[],int n){
-    for(int i =0;i<n;i++){
-        int minIndex = i;
-        for(int j=i+1;j<n;j++){
-            if(arr[j] < arr[minIndex]){
-                minIndex = j;
+using namespace std; 
+
+int selection(int arr[],int n){ // function to perform selection sort
+    for(int i =0;i<n;i++){ // loop through the array
+        int minIndex = i; // assume the first element is the minimum element
+        for(int j=i+1;j<n;j++){ // loop through the unsorted array
+            if(arr[j] < arr[minIndex]){ // compare the current element with the minimum element
+                minIndex = j; // find the index of the minimum element in the unsorted array
             }
         }
-        swap(arr[minIndex],arr[i]);
+        swap(arr[minIndex],arr[i]); // swap the minimum element with the first element of the unsorted array
     }
 }
 

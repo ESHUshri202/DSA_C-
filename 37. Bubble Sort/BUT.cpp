@@ -10,11 +10,11 @@ int bubblesort(int arr[],int n ){
                 //swapping of element performed.
             swap(arr[j],arr[j+1]);
         }
-        }
-        
+        }  
     }
     return 0;
 }
+
 int main(){
     // Their is unordered array of size 6 and running an another sorting algorithm known Bubble Sort.
     int arr[6]= {10,1,7,6,14,9};
