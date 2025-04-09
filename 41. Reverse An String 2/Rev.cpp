@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// This function reverses the string from index k+1 to the end of the string.
+// It takes a string v and an integer k as input and returns the modified string.
+
 string  reversestring(string v,int k){
     int s = k+1,e = v.size()-1;
     while(s<=e){
