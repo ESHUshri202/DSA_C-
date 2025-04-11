@@ -2,6 +2,14 @@
 
 using namespace std;
 
+// Given a string s, replace all spaces in s with @40.
+// The replacement should be done in place, meaning that the original string s should be modified directly.
+// The function should not return anything.
+// The function should take a string s as input and return the modified string.
+// The function should replace all spaces in s with @40.
+// The function should not use any additional data structures or libraries to perform the replacement.
+// The function should not use any built-in string functions or methods to perform the replacement.
+
 string rel(string s){
     string temp = "";
     for(int i =0 ; i<s.length() ; i++){

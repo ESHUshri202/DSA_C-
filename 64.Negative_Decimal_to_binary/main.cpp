@@ -1,6 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+// 
+// Function to convert negative decimal to binary using 2's complement
+// and return the binary representation as an integer
+// The function takes a long long integer as input and returns an integer
+// The function uses bitwise operations to convert the decimal number to binary
+// The function also uses the pow function to calculate the power of 2
+// The function uses a while loop to iterate through the bits of the decimal number
 
 int neg_dec_bin(long long int n ){
     if(n ==0)return 1;

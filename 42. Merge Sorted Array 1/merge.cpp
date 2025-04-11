@@ -1,6 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/*
+    1. Initialize i = 0, j = 0, o = 0
+    2. While i < k and j < m:
+        - If arr1[i] < arr2[j]: arr3[o++] = arr1[i++]
+        - Else: arr3[o++] = arr2[j++]
+    3. Copy remaining arr1[] elements to arr3[] (if any)
+    4. Copy remaining arr2[] elements to arr3[] (if any)
+*/
 int merge(int arr1[], int k, int arr2[], int m, int arr3[])
 {
     int i = 0, j = 0;

@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//  first occurrence of a given target value in a sorted array using a modified binary search.
 
 int firstOccurence(int arr[], int size, int target){
     int s = 0, e = size-1;

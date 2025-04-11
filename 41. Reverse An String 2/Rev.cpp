@@ -3,7 +3,15 @@ using namespace std;
 
 // This function reverses the string from index k+1 to the end of the string.
 // It takes a string v and an integer k as input and returns the modified string.
+/* 
+Input: string v, integer k
+1. Initialize s = k+1, e = v.length - 1
+2. While s <= e:
+     - Swap v[s] and v[e]
+     - Increment s, decrement e
+3. Return the modified string
 
+*/
 string  reversestring(string v,int k){
     int s = k+1,e = v.size()-1;
     while(s<=e){
